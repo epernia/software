@@ -1,0 +1,82 @@
+/* cancellation of some CSS set by Mallard XSL */
+
+html, body {
+	max-width: none;
+	padding: 0;
+}
+
+body {
+	background: transparent;
+}
+
+div.head {
+	margin: 0;
+}
+
+div.body {
+	border: none;
+	max-width: 80em;
+	background: inherit;
+}
+
+div, pre, p {
+	border: none;
+	margin: 0;
+}
+
+div.body div, div.body pre, div.body p {
+	margin: 1em 0 0;
+}
+
+div.body div.links-norwich-primary {
+	margin: 0;
+}
+
+div.body div.links-norwich-big, div.body div.links-norwich-small {
+	margin: 0 20px 20px 0;
+}
+
+div.linkdiv {
+	border-color: transparent;
+}
+
+/* and then some more styling */
+
+div.table table.table td {
+	padding-right: 1em;
+}
+
+div.media div.inner img {
+	max-width: 940px;
+}
+
+#container.two_columns .sidebar {
+  width: 190px;
+}
+
+div.sidenav {
+  padding: 0.5em 1em 0 1em;
+  background-color: #ffffff;
+  border: solid 1px #e0e0df;
+}
+
+div.note > div.inner { background-image: url(yelp-note.png); }
+div.note-bug > div.inner { background-image: url(yelp-note-bug.png); }
+div.note-important > div.inner { background-image: url(yelp-note-important.png); }
+div.note-tip > div.inner { background-image: url(yelp-note-tip.png); }
+div.note-warning > div.inner { background-image: url(yelp-note-warning.png); }
+
+div.note-sidebar > div.inner { background-image: none; }
+
+table.table div, table.table p, div.media div {
+	margin:0;
+}
+
+div.media div.media-range {
+	margin-top: 2px;
+}
+
+div.media div.media-ttml {
+	margin-top: 1ex;
+}
+

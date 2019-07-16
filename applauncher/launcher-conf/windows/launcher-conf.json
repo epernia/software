@@ -1,0 +1,69 @@
+{
+    "mainIcon": "${APPLICATION_RESOURCE_PATH}/ciaa-96x96.png",
+    "mainLabel": "CIAA Launcher",
+    "path": [
+        "${APPLICATION_DIR_PATH}",
+        "${APPLICATION_DIR_PATH}/tools/drivers",
+        "${APPLICATION_DIR_PATH}/tools/system",
+        "${APPLICATION_DIR_PATH}/tools/arm-none-eabi-gcc/bin",
+        "${APPLICATION_DIR_PATH}/tools/openocd/bin",
+        "${APPLICATION_DIR_PATH}/tools/serial-terminal",
+        "${APPLICATION_DIR_PATH}/tools/zenity",
+        "${APPLICATION_DIR_PATH}/embedded-ide",
+        "${APPLICATION_DIR_PATH}/ide4plc",
+        "${APPLICATION_DIR_PATH}/ciaabot-ide",
+        "${APPLICATION_DIR_PATH}/eclipse"
+    ],
+    "env": {
+    },
+    "applications": [
+        {
+            "icon": "${APPLICATION_RESOURCE_PATH}/embedded-ide-64x64.png",
+            "text": "Embedded IDE",
+            "exec": "cmd /C start embedded-ide.exe"
+        },
+        {
+            "icon": "${APPLICATION_RESOURCE_PATH}/gnu-mcu-eclipse-64x64.png",
+            "text": "GNU MCU Eclipse",
+            "exec": "eclipse.exe"
+        },
+        {
+            "icon": "${APPLICATION_RESOURCE_PATH}/serial-terminal-64x64.png",
+            "text": "Serial Terminal",
+            "exec": "cmd /C start Terminal.exe"
+        },
+        {
+            "icon": "${APPLICATION_RESOURCE_PATH}/ide4plc-64x64.png",
+            "text": "IDE4PLC",
+            "exec": "ide4plc.exe",
+            "work": "${APPLICATION_DIR_PATH}/ide4plc"
+        },
+        {
+            "icon": "${APPLICATION_RESOURCE_PATH}/ciaabot-ide-64x64-01.png",
+            "text": "CIAABOT IDE",
+            "exec": "Ciaabot_IDE.exe"
+        },
+        {
+            "icon": "${APPLICATION_RESOURCE_PATH}/busybox-64x64.png",
+            "text": "Busybox Terminal",
+            "exec": "cmd /C start busybox sh",
+            "work": "${APPLICATION_DIR_PATH}/.."
+        },   
+        {
+            "icon": "${APPLICATION_RESOURCE_PATH}/ftdi-vcp-64x64.png",
+            "text": "FTDI VCP Drivers",
+            "exec": "CDM21228_Setup.exe"
+        },
+        {
+            "icon": "${APPLICATION_RESOURCE_PATH}/zadig-64x64.png",
+            "text": "Zadig",
+            "exec": "zadigv2.0.1.154.exe"
+        },
+        {
+            "icon": "${APPLICATION_RESOURCE_PATH}/cmd-64x64.png",
+            "text": "Windows CMD",
+            "exec": "cmd /C start cmd.exe"
+        }
+    ]
+}
+

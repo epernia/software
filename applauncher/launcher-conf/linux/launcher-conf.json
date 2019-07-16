@@ -1,0 +1,62 @@
+{
+    "mainIcon": "${APPLICATION_RESOURCE_PATH}/ciaa-96x96.png",
+    "mainLabel": "CIAA Launcher",
+    "path": [
+        "${APPLICATION_DIR_PATH}",
+        "${APPLICATION_DIR_PATH}/tools",
+        "${APPLICATION_DIR_PATH}/tools/system/bin",
+        "${APPLICATION_DIR_PATH}/tools/gcc-arm-embedded/bin",
+        "${APPLICATION_DIR_PATH}/tools/openocd/bin",
+        "${APPLICATION_DIR_PATH}/embedded-ide/usr/bin",
+        "${APPLICATION_DIR_PATH}/ide4plc",
+        "${APPLICATION_DIR_PATH}/ciaabot-ide",
+        "${APPLICATION_DIR_PATH}/eclipse"
+    ],
+    "env": {
+    },
+    "applications": [
+        {
+            "icon": "${APPLICATION_RESOURCE_PATH}/embedded-ide-64x64.png",
+            "text": "Embedded IDE",
+            "exec": "embedded-ide"
+        },
+        {
+            "icon": "${APPLICATION_RESOURCE_PATH}/gnu-mcu-eclipse-64x64.png",
+            "text": "GNU MCU Eclipse",
+            "exec": "eclipse -data ${APPLICATION_DIR_PATH}/workspaces/eclipse-ws"
+        },
+        {
+            "icon": "${APPLICATION_RESOURCE_PATH}/serial-terminal-64x64.png",
+            "text": "GTKTerm",
+            "exec": "sh -c \"gtkterm &\""
+        },
+        {
+            "icon": "${APPLICATION_RESOURCE_PATH}/ide4plc-64x64.png",
+            "text": "IDE4PLC",
+            "work": "${APPLICATION_DIR_PATH}/ide4plc",
+            "exec": "ide4plc"
+        },
+        {
+            "icon": "${APPLICATION_RESOURCE_PATH}/ciaabot-ide-64x64-01.png",
+            "text": "CIAABOT IDE",
+            "exec": "ciaabot-ide"
+        },
+        {
+            "icon": "${APPLICATION_RESOURCE_PATH}/serial-terminal-64x64.png",
+            "text": "CuteCOM",
+            "exec": "sh -c \"cutecom &\""
+        },
+        {
+            "icon": "${APPLICATION_RESOURCE_PATH}/desktop-integration.svg",
+            "text": "Install tools",
+            "exec": "x-terminal-emulator -e \"sh install-tools.sh\"",
+            "work": "${APPLICATION_DIR_PATH}/tools"
+        },
+        {
+            "icon": "${APPLICATION_RESOURCE_PATH}/linux-terminal-64x64.png",
+            "text": "Linux terminal",
+            "exec": "x-terminal-emulator",
+            "work": "${APPLICATION_DIR_PATH}"
+        }
+    ]
+}

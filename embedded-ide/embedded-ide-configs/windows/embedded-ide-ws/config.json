@@ -1,0 +1,96 @@
+{
+    "additionalPaths": [
+        "${APPLICATION_DIR_PATH}",
+        "${APPLICATION_DIR_PATH}/../tools/drivers",
+        "${APPLICATION_DIR_PATH}/../tools/system",
+        "${APPLICATION_DIR_PATH}/../tools/arm-none-eabi-gcc/bin",
+        "${APPLICATION_DIR_PATH}/../tools/openocd/bin",
+        "${APPLICATION_DIR_PATH}/../tools/serial-terminal",
+        "${APPLICATION_DIR_PATH}/../tools/zenity"
+    ],
+    "editor": {
+        "detectIdent": false,
+        "font": {
+            "name": "Ubuntu Mono",
+            "size": 12
+        },
+        "formatterStyle": "linux",
+        "saveOnAction": false,
+        "showSpaces": false,
+        "style": "Default",
+        "tabWidth": 3,
+        "tabsOnSpaces": true
+    },
+    "externalTools": [
+        {
+            "Install FTDI VCP Drivers": "cmd /C start CDM21228_Setup.exe"
+        },
+        {
+            "Launch Zadig": "cmd /C start zadigv2.0.1.154.exe"
+        },
+        {
+            "Serial Terminal": "cmd /C start Terminal.exe"
+        },
+        {
+            "Busybox Terminal": "cmd /C start busybox sh"
+        },
+        {
+            "Git: status (estado actual)": "git status"
+        },
+        {
+            "Git: init (crear repositorio)": "git init"
+        },
+        {
+            "Git: clone (clonar repositorio)": "git clone ${{text: URL}}"
+        },
+        {
+            "Git: pull (bajar cambios)": "git pull"
+        },
+        {
+            "Git: add": "git add ${{text: Archivos}}"
+        },
+        {
+            "Git: commit": "git commit -a -s -m ${{text: Mensaje}}"
+        },
+        {
+            "Git: push (subir cambios)": "git push"
+        },
+        {
+            "Git: checkout": "git checkout ${{text: branch o hash}}"
+        },
+        {
+            "Git: DIFF (cambios actuales)": "git diff"
+        },
+        {
+            "Git: log (logs resumen)": "git log --pretty=oneline --abbrev-commit"
+        },
+        {
+            "Git: log (logs completos)": "git log --pretty=fuller"
+        }
+    ],
+    "history": [
+    ],
+    "lang": "",
+    "logger": {
+        "font": {
+            "name": "Ubuntu Mono",
+            "size": 10
+        }
+    },
+    "network": {
+        "proxy": {
+            "host": "",
+            "pass": "",
+            "port": "",
+            "type": "None",
+            "useCredentials": false,
+            "user": ""
+        }
+    },
+    "templates": {
+        "autoUpdate": true,
+        "url": "https://api.github.com/repos/ciaa/EmbeddedIDE-templates/contents"
+    },
+    "useDarkStyle": false,
+    "useDevelopMode": false
+}

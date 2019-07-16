@@ -1,0 +1,60 @@
+{
+        "additionalPaths": [
+           "${APPLICATION_DIR_PATH}",
+           "${APPLICATION_DIR_PATH}/../../../tools/gcc-arm-embedded/bin",
+           "${APPLICATION_DIR_PATH}/../../../tools/openocd/bin",
+           "${APPLICATION_DIR_PATH}/../../../tools/system/bin"
+        ],
+        "editor": {
+            "font": {
+                "name": "Ubuntu Mono",
+                "size": 12
+            },
+            "formatterStyle": "linux",
+            "saveOnAction": false,
+            "style": "Default",
+            "tabWidth": 3,
+            "tabsOnSpaces": true
+        },
+        "externalTools": [
+            { "Install FTDI drivers": "bash ${APPLICATION_DIR_PATH}/ftdi-tools.sh --install" },
+            { "Uninstall FTDI drivers": "bash ${APPLICATION_DIR_PATH}/ftdi-tools.sh --uninstall" },
+            { "Add desktop integration": "bash ${APPLICATION_DIR_PATH}/desktop-integration.sh --install" },
+            { "Remove desktop integration": "bash ${APPLICATION_DIR_PATH}/desktop-integration.sh --uninstall" },
+           {"CuteCOM": "sh -c \"cutecom &\""},
+           {"GTKTerm": "sh -c \"gtkterm &\""},
+           {"Git: status (estado actual)": "git status"},
+           {"Git: init (crear repositorio)": "git init"},
+           {"Git: clone (clonar repositorio)": "git clone ${{text: URL}}"},
+           {"Git: pull (bajar cambios)": "git pull"},
+           {"Git: add": "git add ${{text: Archivos}}"},
+           {"Git: commit": "git commit -a -s -m ${{text: Mensaje}}"},
+           {"Git: push (subir cambios)": "git push"},
+           {"Git: checkout": "git checkout ${{text: branch o hash}}"},
+           {"Git: DIFF (cambios actuales)": "git diff"},
+           {"Git: log (logs resumen)": "git log --pretty=oneline --abbrev-commit"},
+           {"Git: log (logs completos)": "git log --pretty=fuller"}
+        ],
+        "history": [ ],
+        "logger": {
+            "font": {
+                "name": "Ubuntu Mono",
+                "size": 10
+            }
+        },
+        "network": {
+            "proxy": {
+                "host": "",
+                "pass": "",
+                "port": "",
+                "type": "None",
+                "useCredentials": false,
+                "user": ""
+            }
+        },
+        "templates": {
+            "autoUpdate": true,
+            "url": "https://api.github.com/repos/ciaa/EmbeddedIDE-templates/contents"
+        },
+        "useDevelopMode": false
+}
