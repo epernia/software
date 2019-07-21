@@ -12,16 +12,16 @@
  - OpenOCD. Programación y depuración.
  - Zenity. Generación de interfaces gráficas.
 
-## Herramientas adicionales en la versión de Windows
+### Herramientas adicionales en la versión de Windows
 
  - Terminal bpp, versióon 1.93b 20141030. Terminal serie.
  - Busybox.
 
-## Herramientas adicionales en la versión de Linux
+### Herramientas adicionales en la versión de Linux
 
  - GTKterm.
- - Cutecom. 
- - Git. 
+ - Cutecom.
+ - Git.
 
 ## Utilización
 
@@ -69,3 +69,12 @@ La primera vez debe instalar varias herramientas y programas necesarios mediante
 Luego debe instalar el **driver FTDI** para la EDU-CIAA-NXP o CIAA-NXP. Esto se logra abriendo **Embedded IDE** desde el lanzador de aplicaciones y presionando el botón "External tools" y luego "Install FTDI drivers":
 
 ![FTDI-Linux](applauncher/docs/FTDI-Linux.png)
+
+## Repositorios de Firmware de C/C++
+
+Se recomienda la utilización del último repositorio. Actualmente Firmware v3. Los disponibles son:
+
+- [firmware_v3.](https://github.com/ciaa/firmware_v3)
+- [firmware_v2.](https://github.com/ciaa/firmware_v2)
+- [firmware_v1.](https://github.com/ciaa/firmware_v1)
+
