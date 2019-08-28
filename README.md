@@ -80,4 +80,4 @@ Se recomienda la utilización del último repositorio. Actualmente Firmware v3. 
 
 ## Configurar Eclipse
 
-[Ver guía](eclipse/docs/configurar_eclipse.md).
+[Configuración inicial de Eclipse para trabajar con el proyecto Firmware v3.](eclipse/docs/configurar_eclipse.md).
