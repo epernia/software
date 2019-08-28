@@ -1,6 +1,4 @@
-# Configuración de Eclipse
-
-## Configuración inicial de Eclipse para trabajar con el proyecto Firmware
+# Configuración inicial de Eclipse para trabajar con el proyecto Firmware v3
 
 ### Abrir Eclipse
 
