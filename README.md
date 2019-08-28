@@ -78,3 +78,6 @@ Se recomienda la utilización del último repositorio. Actualmente Firmware v3. 
 - [firmware_v2.](https://github.com/ciaa/firmware_v2)
 - [firmware_v1.](https://github.com/ciaa/firmware_v1)
 
+## Configurar Eclipse
+
+[Ver guía](eclipse/docs/configurar_eclipse.md).
