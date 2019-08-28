@@ -138,6 +138,6 @@ En este caso se puso uin beakpoint en la función boardConfig() como ejemplo:![E
 
 Simplemente deberá compilar el otro porgrama y luego abrir la ventana "Debug Configurations" y mediante el botón "Search Project.." puede elegir que programa va a descargar/depurar:
 
-![Eclipse-14](C:/CIAA/CIAA_Software_1.0-Win/eclipse/docs/Eclipse-Win14.png)
+![Eclipse-14](Eclipse-Win14.png)
 
 Liego simplemente presionar sobre debug, el resto de las configuraciones que realizamos se hace una única vez.
