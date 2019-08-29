@@ -25,7 +25,11 @@
 
 ## Utilización
 
-Debe descargar de [releases](https://github.com/epernia/software/releases/tag/r1.0.0) la versión para Windows o Linux y descomprimir la carpeta en una ruta conocida, sin espacios y con los permisos adecuados. Se recomiendan:
+Debe descargar de [releases](https://github.com/epernia/software/releases/tag/r1.0.0) la versión para Windows o Linux.
+
+**NOTA: No tiene sentido clonar este repositorio porque solamente incluye documentación, el software está incluído en las releases.**
+
+Descomprimir la carpeta en una ruta conocida, sin espacios y con los permisos adecuados. Se recomiendan:
 
 - **Windows**. C:\CIAA\
 - **Linux**. $HOME/CIAA/
