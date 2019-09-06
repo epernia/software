@@ -1,4 +1,4 @@
-# Paquete de herramientas listas para usar para la programación de las plataformas del Proyeto CIAA
+# Paquete de herramientas listas para usar para la programación de las plataformas del Proyecto CIAA
 
 ## Herramientas contenidas
 
