@@ -1,0 +1,22 @@
+Windows
+-------
+
+Copiar:
+   - Carpeta "arm-none-eabi-gcc".
+   - Carpeta "cool-term-win".
+   - Carpeta "drivers".
+   - Carpeta "openocd".
+   - Carpeta "serial-terminal".
+   - Carpeta "system".
+   - Carpeta "zenity".
+   - Archivo "_Instrucciones de integracion.txt" (este archivo).
+
+Linux
+-----
+
+Copiar:
+   - Carpeta "cool-term-linux".
+   - Carpeta "gcc-arm-embedded".
+   - Carpeta "openocd".
+   - Carpeta "system".
+   - Archivo "_Instrucciones de integracion.txt" (este archivo).

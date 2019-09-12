@@ -1,0 +1,8 @@
+Copiar:
+   - Carpeta "docs".
+   - Carpeta "launcher-conf".
+   - Carpeta "resources".
+   - Archivo "_Instrucciones de integracion.txt" (este archivo).
+   - Archivo "LICENSE".
+
+Poner el archivo "launcher-conf.json" según el sistema operativo.

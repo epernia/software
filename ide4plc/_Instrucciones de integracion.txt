@@ -1,0 +1,7 @@
+Copiar:
+   - Carpeta "IDE4PLC_LICENSE".
+   - Carpeta "docs".
+   - Archivo "_Instrucciones de integracion.txt" (este archivo).
+   - Archivo "README.md".
+
+Copiar versión de IDE4PLC segun sistema operativo.

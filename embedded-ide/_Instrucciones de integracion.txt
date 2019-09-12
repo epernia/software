@@ -1,0 +1,10 @@
+Copiar:
+   - Carpeta "docs".
+   - Carpeta "embedded-ide-configs".
+   - Archivo "_Instrucciones de integracion.txt" (este archivo).
+   - Archivo "embedded_ide-config.json" (comparar con la versión nueva).
+   - Archivo "embedded-ide.hardconf" (comparar con la versión nueva).
+   - Archivo "README.md".
+   - Archivo "version.txt" (cambiar versión).
+
+Copiar segun sistema operativo los configs.

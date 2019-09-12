@@ -25,7 +25,7 @@
 
 ## Utilización
 
-Debe descargar de [releases](https://github.com/epernia/software/releases/tag/r1.0.0) la versión para Windows o Linux.
+Debe descargar de [releases](https://github.com/epernia/software/releases/tag/r1.1.0) la versión para Windows o Linux.
 
 **NOTA: No tiene sentido clonar este repositorio porque solamente incluye documentación, el software está incluído en las releases.**
 
@@ -69,10 +69,6 @@ Desde el lanzador puede ejecutar cualquiera de los programas desde los accesos:
 **Primera vez en Linux**
 
 La primera vez debe instalar varias herramientas y programas necesarios mediante el icono **Install tools** del lanzador de aplicacciones (se requiere contraseña de administrador para este paso).
-
-Luego debe instalar el **driver FTDI** para la EDU-CIAA-NXP o CIAA-NXP. Esto se logra abriendo **Embedded IDE** desde el lanzador de aplicaciones y presionando el botón "External tools" y luego "Install FTDI drivers":
-
-![FTDI-Linux](applauncher/docs/FTDI-Linux.png)
 
 ## Repositorios de Firmware de C/C++
 

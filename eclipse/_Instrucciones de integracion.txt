@@ -1,0 +1,8 @@
+Copiar:
+   - Carpeta "docs".
+   - Archivo "_Instrucciones de integracion.txt" (este archivo).
+   - Archivo "CONTRIBUTING.md".
+   - Archivo "README.md".
+   - Archivo "version.txt".
+
+Poner los archivos de Eclipse con su jre según el Sistema Operativo.

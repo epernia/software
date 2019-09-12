@@ -1,0 +1,7 @@
+Copiar:
+   - Carpeta "docs".
+   - Archivo "_Instrucciones de integracion.txt" (este archivo).
+   - Archivo "README.md".
+   - Archivo "LICENSE".
+
+Copiar los arcivos de CIAA-BOT IDE según el Sistema Operativo.

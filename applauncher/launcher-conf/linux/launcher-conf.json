@@ -7,12 +7,14 @@
         "${APPLICATION_DIR_PATH}/tools/system/bin",
         "${APPLICATION_DIR_PATH}/tools/gcc-arm-embedded/bin",
         "${APPLICATION_DIR_PATH}/tools/openocd/bin",
+        "${APPLICATION_DIR_PATH}/tools/cool-term-linux",
         "${APPLICATION_DIR_PATH}/embedded-ide/usr/bin",
         "${APPLICATION_DIR_PATH}/ide4plc",
         "${APPLICATION_DIR_PATH}/ciaabot-ide",
         "${APPLICATION_DIR_PATH}/eclipse"
     ],
     "env": {
+        "OPENOCD_PATH":"${APPLICATION_DIR_PATH}/tools/openocd/bin"
     },
     "applications": [
         {
@@ -29,6 +31,11 @@
             "icon": "${APPLICATION_RESOURCE_PATH}/serial-terminal-64x64.png",
             "text": "GTKTerm",
             "exec": "sh -c \"gtkterm &\""
+        },
+        {
+            "icon": "${APPLICATION_RESOURCE_PATH}/serial-terminal-64x64.png",
+            "text": "Serial Terminal CoolTerm",
+            "exec": "cmd /C start CoolTerm.exe"
         },
         {
             "icon": "${APPLICATION_RESOURCE_PATH}/ide4plc-64x64.png",
@@ -49,7 +56,7 @@
         {
             "icon": "${APPLICATION_RESOURCE_PATH}/desktop-integration.svg",
             "text": "Install tools",
-            "exec": "x-terminal-emulator -e \"sh install-tools.sh\"",
+            "exec": "sh install-tools.sh ${APPLICATION_DIR_PATH}",
             "work": "${APPLICATION_DIR_PATH}/tools"
         },
         {
