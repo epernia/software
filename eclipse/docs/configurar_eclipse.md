@@ -109,7 +109,7 @@ Seleccionarlo y presionar "Ok".
 
 Ir a la pestaña "Debugger" donde deberá completar lo siguiente:
 
-- Executable path: ```openocd```
+- Executable path: ```${OPENOCD_PATH}/openocd```
 - Config options: ```-f scripts/openocd/lpc4337.cfg```
 
 ![Eclipse-16](Eclipse-Win16.png)
