@@ -83,7 +83,7 @@ Al presionar "build" se compila el programa dando como resultado lo siguiente:
 - El programa que fue compilado dentro del proyecto, en este caso llamado "app" en la carpeta "examples/c" dentro de "firmware_v3".
 - La plataforma de hardware para la cual se compiló el programa, en este caso "EDU-CIAA-NXP".
 
-### Configuración de la descarfa y depuración del programa sobre el hardware
+### Configuración de la descarga y depuración del programa sobre el hardware
 
 Ubique el ícono del bicho verde (debbug) , presione sobre la flecha hacia abajo a la derecha de este icono y en la ventana que se despliega la opción "Debug Configurations..."
 
