@@ -6,3 +6,7 @@ Copiar:
    - Archivo "version.txt".
 
 Poner los archivos de Eclipse con su jre según el Sistema Operativo.
+
+Borrar en el archivo eclipse/configuration/.settings/org.eclipse.ui.ide.prefs la segunda linea de workspace recientes para que quede así:
+
+RECENT_WORKSPACES=
