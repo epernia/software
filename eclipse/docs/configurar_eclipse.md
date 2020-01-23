@@ -9,7 +9,7 @@ Recordar abrir Eclipse desde el Launcher. Esto traerá las variables de entorno 
 Al abrir el Eclipse solicita seleccionar la carpeta a utilizar como espacio de trabajo (Workspace), elegir dentro de la ruta donde descomprimieron el Launcher la carpeta:
 
 ```
-<rutaDondeDescomprimiElLauncher>/workspaces/eclipse-ws
+rutaDondeDescomprimiElLauncher/workspaces/eclipse-ws
 ```
 
 ![Eclipse-01](Eclipse-Win01.png)
@@ -85,7 +85,7 @@ Al presionar "build" se compila el programa dando como resultado lo siguiente:
 
 ### Configuración de la descarga y depuración del programa sobre el hardware
 
-Ubique el ícono del bicho verde (debbug) , presione sobre la flecha hacia abajo a la derecha de este icono y en la ventana que se despliega la opción "Debug Configurations..."
+Ubique el ícono del bicho verde (debbug), presione sobre la flecha hacia abajo a la derecha de este icono y en la ventana que se despliega la opción "Debug Configurations..."
 
 ![Eclipse-11](Eclipse-Win11.png)
 
@@ -138,4 +138,4 @@ Simplemente deberá compilar el otro porgrama y luego abrir la ventana "Debug Co
 
 ![Eclipse-14](Eclipse-Win14.png)
 
-Liego simplemente presionar sobre debug, el resto de las configuraciones que realizamos se hace una única vez.
+Luego simplemente presionar sobre debug, el resto de las configuraciones que realizamos se hace una única vez.
