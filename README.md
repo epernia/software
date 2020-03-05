@@ -74,10 +74,6 @@ La primera vez debe instalar varias herramientas y programas necesarios mediante
 
 Se recomienda la utilización del último repositorio. Actualmente Firmware v3. Los disponibles son:
 
-- [firmware_v3.](https://github.com/ciaa/firmware_v3)
+- [firmware_v3.](https://github.com/epernia/firmware_v3)
 - [firmware_v2.](https://github.com/ciaa/firmware_v2)
 - [firmware_v1.](https://github.com/ciaa/firmware_v1)
-
-## Configurar Eclipse
-
-[Configuración inicial de Eclipse para trabajar con el proyecto Firmware v3.](eclipse/docs/configurar_eclipse.md).
