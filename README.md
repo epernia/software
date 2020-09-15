@@ -75,7 +75,7 @@ La primera vez debe instalar varias herramientas y programas necesarios mediante
 1. Descargar el paquete libgconf-2-4 (en lugar de libgconf2-4, es muy sutil la diferencia de nombres)
 2. Cambiar el link simbólico de librt.so.1 de librt-2.19.so a librt-2.31.so
 
-Esto se logra mediante los comandos:
+Esto se logra ejecutando los siguientes comandos en una terminal:
 
 ```
 sudo apt install libgconf-2-4
