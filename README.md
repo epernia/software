@@ -70,6 +70,22 @@ Desde el lanzador puede ejecutar cualquiera de los programas desde los accesos:
 
 La primera vez debe instalar varias herramientas y programas necesarios mediante el icono **Install tools** del lanzador de aplicacciones (se requiere contraseña de administrador para este paso).
 
+**NOTA para Ubuntu 20.04**: El en torno funciona correctamente en Ubuntu 18.04. Para que funcione en Ubuntu 20.04 deberá:
+
+1. Descargar el paquete libgconf-2-4 (en lugar de libgconf2-4, es muy sutil la diferencia de nombres)
+2. Cambiar el link simbólico de librt.so.1 de librt-2.19.so a librt-2.31.so
+
+Esto se logra mediante los comandos:
+
+```
+sudo apt install libgconf-2-4
+cd $HOME/CIAA/CIAA_Software_1.1-linux-x64/tools/openocd/bin
+cp /usr/lib/x86_64-linux-gnu/librt-2.31.so .
+ln -sfn librt-2.31.so librt.so.1
+```
+
+Puede que tenga que reemplazar $HOME por la ruta a su usuario.
+
 ## Repositorios de Firmware de C/C++
 
 Se recomienda la utilización del último repositorio. Actualmente Firmware v3. Los disponibles son:
