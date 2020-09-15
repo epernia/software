@@ -86,7 +86,7 @@ ln -sfn librt-2.31.so librt.so.1
 
 Puede que tenga que reemplazar $HOME por la ruta a su usuario.
 
-## Repositorios de Firmware de C/C++
+## Repositorios de frameworks para la programación de las plataformas CIAA en C/C++
 
 Se recomienda la utilización del último repositorio. Actualmente Firmware v3. Los disponibles son:
 
