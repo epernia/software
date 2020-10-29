@@ -70,7 +70,7 @@ Desde el lanzador puede ejecutar cualquiera de los programas desde los accesos:
 
 La primera vez debe instalar varias herramientas y programas necesarios mediante el icono **Install tools** del lanzador de aplicacciones (se requiere contraseña de administrador para este paso).
 
-**NOTA para Ubuntu 20.04**: El en torno funciona correctamente en Ubuntu 18.04. Para que funcione en Ubuntu 20.04 deberá:
+**NOTA para Ubuntu 20.04**: El entorno funciona correctamente en Ubuntu 18.04. Para que funcione en Ubuntu 20.04 deberá:
 
 1. Descargar el paquete libgconf-2-4 (en lugar de libgconf2-4, es muy sutil la diferencia de nombres)
 2. Cambiar el link simbólico de librt.so.1 de librt-2.19.so a librt-2.31.so
