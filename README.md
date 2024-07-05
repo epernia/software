@@ -54,7 +54,9 @@ La primera vez debe instalar los **drivers FTDI VCP** (desde el icono del lanzad
 
 Presione "Extract" y luego instale el driver con todas las opciones por defecto.
 
-Luego reemplazar el driver del dispositivo *Dual RS232HS (Interface 0)* con **Zadig**. Para lograrlo debe abrir zadig desde el lanzador de aplicaciones y luego en el menú "Optinos" presionar sobre "List all devices". En el combo seleccione el dispositivo "Dual RS232HS (Interface 0)" y presionar el botón "Replace Driver":
+Conecte la placa EDU-CIAA-NXP o CIAA-NXPI a la PC vía USB (en el puerto MicroUSB DEBUG).
+
+Luego, reemplazar el driver del dispositivo *Dual RS232HS (Interface 0)* con **Zadig**. Para lograrlo debe abrir zadig desde el lanzador de aplicaciones y luego en el menú "Optinos" presionar sobre "List all devices". En el combo seleccione el dispositivo "Dual RS232HS (Interface 0)" y presionar el botón "Replace Driver":
 
 ![Zadig-Win](applauncher/docs/Zadig-Win.png)
 
